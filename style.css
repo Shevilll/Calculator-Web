@@ -1,3 +1,30 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(48, 43, 43);
+    user-select: none;
+    text-align: center;
+}
+
+#button0 {
+    width: 98px;
+}
+
+button {
+    background-color: #423140;
+    color: black;
+    font-size: 20px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont";
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    margin: -1px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #8a6886;
+}
+
+#inputlabel {
+    font-size: 30px;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont";
 }
